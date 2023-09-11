@@ -4,8 +4,6 @@
 # 2. Data Types 
 #   int, str, float, bool
 
-'''
-
 num1 = int(input("Enter first number :"))
 num2 = int(input("Enter second number :"))
 
@@ -28,7 +26,7 @@ print(f"Product : {product}, Type : {type(product)}")
 print(f"Division : {division}, Type : {type(division)}")
 
 print("\n")
-'''
+
 # Playing with strings
 
 sample_string = "python programming is ezzz"
@@ -42,7 +40,6 @@ sample_string_2 = "python!is!ez!gg"
 words = sample_string_2.split("!")
 
 print(words)
-'''
 
 # Asking user for their first name, last name, age and favorite number
 # first_name = input("Please enter your First name : ")
@@ -74,6 +71,3 @@ else :
     print("Greetings",first_name+" "+last_name+" ,age is just a number")
 
 print("Your favorite number squared is :", favorite_number*favorite_number)
-
-
-'''
